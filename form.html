@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+<form name="myform" method="post">
+
+<p>First Name: <input type="text" name="firstname" /> Last Name: <input type="text" name="lastname" /></p>
+
+<p>Email: <input type="text" name="email" />(Required)</p>
+
+<p>Comments: <textarea rows="4" cols="50" name="message"></textarea></p>
+
+<p>Are you?:<br />
+<input type="radio" name="gender" value="male" />Male<br />
+<input type="radio" name="gender" value="female" />Female</p>
+
+<p>Which methods of transportation do you use?</p>
+<p><input type="checkbox" name="vehicle[]" value="Bike" />Bike<br />
+<input type="checkbox" name="vehicle[]" value="Car" />Car<br />
+<input type="checkbox" name="vehicle[]" value="Bus" />Bus<br />
+<input type="checkbox" name="vehicle[]" value="Train" />Train</p>
+
+<p>What type of car do you own?</p>
+<select name="car">
+ <option value="ford">Ford</option>
+ <option value="volvo">Volvo</option>
+ <option value="saab">Saab</option>
+ <option value="hyundai">Hyundai</option>
+ <option value="mercedes">Mercedes</option>
+ <option value="audi">Audi</option>
+</select>
+
+<p><input type="submit" value="Submit" /> <input type="reset" value="Reset" /></p>
+
+</form>
+
+</body>
+</html>
